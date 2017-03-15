@@ -2,6 +2,8 @@
 [forumurl]: https://forum.linuxserver.io
 [ircurl]: https://www.linuxserver.io/irc/
 [podcasturl]: https://www.linuxserver.io/podcast/
+[appurl]: https://github.com/causefx/Organizr
+[hub]: https://hub.docker.com/r/lsioarmhf/organizr/
 
 [![linuxserver.io](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_medium.png)][linuxserverurl]
 
@@ -12,12 +14,10 @@ The [LinuxServer.io][linuxserverurl] team brings you another container release f
 
 # lsioarmhf/organizr
 [![](https://images.microbadger.com/badges/version/lsioarmhf/organizr.svg)](https://microbadger.com/images/lsioarmhf/organizr "Get your own version badge on microbadger.com")[![](https://images.microbadger.com/badges/image/lsioarmhf/organizr.svg)](https://microbadger.com/images/lsioarmhf/organizr "Get your own image badge on microbadger.com")[![Docker Pulls](https://img.shields.io/docker/pulls/lsioarmhf/organizr.svg)][hub][![Docker Stars](https://img.shields.io/docker/stars/lsioarmhf/organizr.svg)][hub][![Build Status](http://jenkins.linuxserver.io:8080/buildStatus/icon?job=Dockers/LinuxServer.io-armhf/lsioarmhf-organizr)](http://jenkins.linuxserver.io:8080/job/Dockers/job/LinuxServer.io-armhf/job/lsioarmhf-organizr/)
-[hub]: https://hub.docker.com/r/lsioarmhf/organizr/
 
 HTPC/Homelab Services Organizer - Written in PHP
 
-[![organizr](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/organizr-icon.png)][organizrurl]
-[organizrurl]: https://github.com/causefx/Organizr
+[![organizr](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/organizr-icon.png)][appurl]
 
 ## Usage
 
@@ -60,7 +60,7 @@ In this instance `PUID=1001` and `PGID=1001`. To find yours use `id user` as bel
 ## Setting up the application
 `IMPORTANT... THIS IS THE ARMHF VERSION`
 
-Setup accounts etc via the webui, more info at [Organizr][organizrurl].
+Setup accounts etc via the webui, more info at [Organizr][appurl].
 
 ## Info
 
