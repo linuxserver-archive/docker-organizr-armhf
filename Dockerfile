@@ -13,6 +13,7 @@ RUN \
 	php7-pdo_sqlite \
 	php7-sqlite3 \
 	php7-session \
+	php7-curl \
 	php7-zip
 
 # add local files
