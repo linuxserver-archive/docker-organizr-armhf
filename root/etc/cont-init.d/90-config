@@ -1,0 +1,21 @@
+#!/usr/bin/with-contenv bash
+
+echo '
+******************************************************
+******************************************************
+*                                                    *
+*                                                    *
+*          This image has been deprecated            *
+*                                                    *
+*           Use the multi-arch images at             *
+*                                                    *
+*               linuxserver/organizr                 *
+*                                                    *
+*    https://hub.docker.com/r/linuxserver/organizr   *
+*                                                    *
+*   https://github.com/linuxserver/docker-organizr   *
+*                                                    *
+*                                                    *
+*                                                    *
+******************************************************
+******************************************************'
